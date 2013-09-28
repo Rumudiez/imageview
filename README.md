@@ -8,4 +8,4 @@ Within Chrome, go to **Settings** and click on **Extensions**. From there, check
 
 Licence
 =======
-Feel free to use this anywhere or however you like, but your product must always be free!
+Feel free to use this anywhere or however you like, but never charge for this!

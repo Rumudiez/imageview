@@ -1,0 +1,30 @@
+{
+  "manifest_version":2,
+  "name":"ImageView",
+  "description":"This extension styles tabs which only contain an image (right-click, open image in new tab, etc.)",
+  "version":"0.1",
+
+  "content_scripts":[
+    {
+      "matches":[
+        "*://*/*.jpg",
+        "*://*/*.jpeg",
+        "*://*/*.png",
+        "*://*/*.bmp",
+        "*://*/*.gif",
+        "*://*/*.svg",
+        "*://*/*.JPG",
+        "*://*/*.JPEG",
+        "*://*/*.PNG",
+        "*://*/*.BMP",
+        "*://*/*.GIF",
+        "*://*/*.SVG"
+      ],
+      "js":["imageview.js"],
+      "run_at":"document_start"
+    }	],
+  "web_accessible_resources": [
+    "background.gif",
+    "background.png"
+  ]
+}
